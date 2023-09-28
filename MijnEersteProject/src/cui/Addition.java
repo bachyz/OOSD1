@@ -6,7 +6,6 @@ public class Addition {
 
 	public static void main(String[] args) {
 		
-		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 
 		int x, y, som; //elk appart declareren kan ook
@@ -20,7 +19,7 @@ public class Addition {
 		
 		System.out.println("Sum is :" + som + "\nFirst number is:" + x + "\nSecond number is:" + y);
 		//System.out.printf("Sum is :%d", som);
-
+		input.close();
 		
 
 	}
