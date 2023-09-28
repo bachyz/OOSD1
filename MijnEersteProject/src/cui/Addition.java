@@ -2,10 +2,11 @@ package cui;
 
 import java.util.Scanner; // om alle imports in 1 keer te fiksen; ctrl+shift+o
 
-public class Addition {
+public class Addition {s
 
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 
 		int x, y, som; //elk appart declareren kan ook
