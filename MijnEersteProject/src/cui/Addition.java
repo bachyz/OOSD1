@@ -2,7 +2,7 @@ package cui;
 
 import java.util.Scanner; // om alle imports in 1 keer te fiksen; ctrl+shift+o
 
-public class Addition {s
+public class Addition {
 
 	public static void main(String[] args) {
 		
