@@ -16,7 +16,8 @@ public class Welcome {
 		
 		System.out.printf("%5d", 123);
 		System.out.printf("%5d%n", 123123);
-		System.out.printf("%5.2f", 2.5);
+		System.out.printf("%5.2f", 2.6);
+		
 		
 	}
 
