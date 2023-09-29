@@ -8,7 +8,8 @@ public class Oefening13 {
 		int datuming;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Geef een datum in <ddmmjjjj>");
-		
+		datuming = input.nextInt();
+		input.close();
 	}
 
 }
