@@ -7,7 +7,7 @@ public class Oefening2 {
 
 		
 		System.out.println("Open de C:\\Mijn Documenten\nVolg de pijl \"Omleiding\"\nHet boek voor \tJava\nis dat van\t\tDeintel\nEngelstaling");
-		
+		System.out.print(false);
 		
 		
 	}
