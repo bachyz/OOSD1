@@ -12,6 +12,7 @@ public class Voorbeeld_switch_statement
 	private void gebruik_switch()
 	{
 		Scanner input = new Scanner(System.in);
+		input.close();
 		
 		// tag::voorbeeld1_switch[]
 		System.out.print("Geef uw keuze in: ");
