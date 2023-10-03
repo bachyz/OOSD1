@@ -9,8 +9,21 @@ public class VoorbeeldSwitch2 {
 		switch (stad.charAt(0)){
 		case 'A' -> System.out.println("Aalst");
 		case 'B' -> System.out.println("Brugge");
-		case 'C' -> System.out.println("Gent");
+		case 'G' -> System.out.println("Gent");
 		}
+		
+		// switch expressie
+		String resultaat = switch (stad.charAt(0)) {
+		case 'A' -> "Aalst";
+		case 'B' -> "Brugge";
+		case 'G' -> "Gent";
+		default -> "Foutieve keuze";
+		
+		};
+		System.out.println(resultaat);
+		
 	}
+	
+	
 
 }
