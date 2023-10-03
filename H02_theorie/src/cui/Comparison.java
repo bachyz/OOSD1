@@ -15,7 +15,6 @@ public class Comparison
 	{
 		// creëer een object van Scanner; voor invoer vanaf het toetsenbord
         Scanner input = new Scanner(System.in);
-		input.close();
 
 
         int number1;          // eerste getal om te vergelijken

@@ -13,7 +13,7 @@ public class Oefening17 {
 		System.out.println("Geef een kortingspercentage in (geheelgetal) : ");
 		korting = input.nextInt();
 		input.close();
-		System.out.printf("%.2f€ met %d%% korting is :%.2f€ ", kommagetal, korting, (kommagetal-kommagetal*korting/100));
+		System.out.printf("%.2f€ met %d%% korting is :%.2f€ ", kommagetal, korting, kommagetal-((kommagetal*korting)/100));
 
 
 		

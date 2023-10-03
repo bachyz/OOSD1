@@ -12,7 +12,6 @@ public class DoWhileControle1
 	private void controleerInvoer()
 	{
 		Scanner input = new Scanner(System.in);
-		input.close();
 
 		int getal;
 
@@ -20,6 +19,8 @@ public class DoWhileControle1
 		{ // <2>
 			System.out.print("Geef een strikt positief geheel getal in: ");
 			getal = input.nextInt();
+			input.close();
+
 		} while (getal <= 0); // einde do/while structuur <3>
 		
 		System.out.printf("Het ingevoerde getal = %d", getal);
