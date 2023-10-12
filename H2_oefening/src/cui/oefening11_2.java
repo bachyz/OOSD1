@@ -21,17 +21,27 @@ public class oefening11_2 {
 		//lees getal 2
 		int getal2;
 		do {
-			getal2 = leesGetal();
+			getal2 = leesGetal2();
 		} while (getal2 <= getal1);
+		System.out.printf("Correct: getal1= %d  getal2 = %d", getal1, getal2);
 	}
 
 	private int leesGetal() {
 		
 		int getal1;
-		System.out.println("Geef getal 1 in (niet 1000 en niet deelbaar door 12): ");
+		System.out.println("Geef getal in (niet 1000 en niet deelbaar door 12): ");
 		Scanner input = new Scanner(System.in);
 		getal1 = input.nextInt();
 		return getal1;
+		
+	}
+	private int leesGetal2() {
+		
+		int getal2;
+		System.out.println("Geef getal in (niet 1000 en niet deelbaar door 12): ");
+		Scanner input = new Scanner(System.in);
+		getal2 = input.nextInt();
+		return getal2;
 		
 	}
 }

@@ -8,13 +8,13 @@ public class oefening12 {
 		new oefening12().start();
 	}
 	private void start() {
-		double leeuwen = 50;
+		int leeuwen = 50;
 		int aantalJaren = 0;
 		
 		do {
 			aantalJaren++;
-			leeuwen = leeuwen+(leeuwen *0.15);
-			System.out.printf("aantal leeuwen: %.0f, aantal jaren %d%n", leeuwen, aantalJaren);
+			leeuwen += leeuwen*15/100;
+			System.out.printf("aantal leeuwen: %d, aantal jaren: %d%n", leeuwen, aantalJaren);
 		} while (leeuwen<=1000);
 	}
 
