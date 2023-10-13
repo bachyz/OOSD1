@@ -8,6 +8,5 @@ public class oef14 {
 	}
 
 	private void start() {
-		for() {}
 	}
 }
