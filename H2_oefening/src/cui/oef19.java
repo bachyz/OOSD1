@@ -10,6 +10,7 @@ public class oef19 {
 	}
 	private int leesGetal() {
 		Scanner input = new Scanner(System.in);
+		System.out.println("");
 		return input.nextInt();
 		
 	}
