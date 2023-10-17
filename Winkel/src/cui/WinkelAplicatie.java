@@ -2,6 +2,7 @@ package cui;
 
 import java.util.Scanner;
 
+import domein.Pennenzak;
 import domein.Waterfles;
 
 public class WinkelAplicatie {
@@ -20,6 +21,13 @@ public class WinkelAplicatie {
 		System.out.println(fles.print());
 		System.out.println(fles2.print());
 		System.out.println(fles3.print());
+
+		Pennenzak pennenzak1 = new Pennenzak("Rood");
+		Pennenzak pennenzak2 = new Pennenzak("roze", 12);
+		
+		System.out.println(pennenzak1.print());
+		System.out.println(pennenzak2.print());
+
 
 		
 		

@@ -26,12 +26,12 @@ public class Waterfles {
 		
 		public Waterfles(String kleur,int capaciteit) {
 			this.kleur = kleur;
-			this.capaciteit = 500;
+			this.capaciteit = capaciteit;
 			this.inhoud = 0;
 		}
 		
 		public String print() {
-			return "kleur: "+kleur+"capaciteit: "+ capaciteit+"inhoud: "+inhoud;
+			return "kleur: "+kleur+" capaciteit: "+ capaciteit+" inhoud: "+inhoud;
 		}
 	}
 

@@ -11,6 +11,7 @@ public class Pennenzak {
 			this.inhoud = 30;
 			this.kleur = kleur;
 			this.aantaalPotloden = 0;
+
 			
 		}
 		
@@ -20,7 +21,7 @@ public class Pennenzak {
 			this.aantaalPotloden = 0;
 		}
 		public String print() {
-			return "Pennenzak met kleur "+ kleur + "inhoud: "+ inhoud + " en aantalPotloden: " + aantaalPotloden; 
+			return "Pennenzak met kleur "+ kleur + " inhoud: "+ inhoud + " en aantalPotloden: " + aantaalPotloden; 
 		}
 	}
 
