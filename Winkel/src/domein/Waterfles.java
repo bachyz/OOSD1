@@ -13,12 +13,25 @@ public class Waterfles {
 		private boolean open = true;
 		
 		public Waterfles() {
+			this.kleur = "rood";
+			this.capaciteit = 500;
+			this.inhoud = 0;
 			
 		}
 		public Waterfles(String kleur) {
 			this.kleur = kleur;
 			this.capaciteit = 500;
 			this.inhoud = 0;
+		}
+		
+		public Waterfles(String kleur,int capaciteit) {
+			this.kleur = kleur;
+			this.capaciteit = 500;
+			this.inhoud = 0;
+		}
+		
+		public String print() {
+			return "kleur: "+kleur+"capaciteit: "+ capaciteit+"inhoud: "+inhoud;
 		}
 	}
 
