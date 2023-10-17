@@ -15,6 +15,9 @@ public class WinkelAplicatie {
 		Scanner input = new Scanner(System.in);
 		Waterfles fles = new Waterfles();
 		Waterfles fles2 = new Waterfles("Geel");
+		Waterfles fles3 = new Waterfles("Blauw",1000);
+		
+		
 	}
 	
 }
