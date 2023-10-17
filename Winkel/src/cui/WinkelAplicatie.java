@@ -17,6 +17,11 @@ public class WinkelAplicatie {
 		Waterfles fles2 = new Waterfles("Geel");
 		Waterfles fles3 = new Waterfles("Blauw",1000);
 		
+		System.out.println(fles.print());
+		System.out.println(fles2.print());
+		System.out.println(fles3.print());
+
+		
 		
 	}
 	
