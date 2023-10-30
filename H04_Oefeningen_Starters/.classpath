@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="H04_Oefeningen_Starters/H04start_Gezinsuitgaven/src"/>
+	<classpathentry kind="src" path="H04_Oefeningen_Starters/H04start_MatrixTransponeren/src"/>
+	<classpathentry kind="src" path="H04_Oefeningen_Starters/H04start_Parking/src"/>
+	<classpathentry kind="src" path="H04_Oefeningen_Starters/H04start_Rekening/src"/>
+	<classpathentry kind="src" path="H04_Oefeningen_Starters/H04start_Rommelmarkt/src"/>
+	<classpathentry kind="src" path="H04_Oefeningen_Starters/H04start_Tankstation/src"/>
+	<classpathentry kind="src" path="H04_Oefeningen_Starters/H04start_Tevredenheidsscores/src"/>
+	<classpathentry kind="src" path="H04_Oefeningen_Starters/H04start_VierOpEenRij/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
