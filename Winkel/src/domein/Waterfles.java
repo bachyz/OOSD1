@@ -30,7 +30,27 @@ public class Waterfles {
 			this.inhoud = 0;
 		}
 		
+		public void gietLeeg() {
+			
+		}
+		public String getkleur() {
+			return kleur;
+		}
+		public int getInhoud() {
+			
+			return inhoud;
+		}
+		
+		public void setKleur(String kleur){
+			this.kleur = kleur;
+		}
+		
+		public void setInhoud(int inhoud) {
+			this.inhoud = inhoud;
+		}
+		
 		public String print() {
+			int getal = 1;
 			return "kleur: "+kleur+" capaciteit: "+ capaciteit+" inhoud: "+inhoud;
 		}
 	}
